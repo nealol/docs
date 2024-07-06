@@ -37,8 +37,12 @@
             "group": "Welcome"
         },
         {
-            "group": "Get Started",
-            "pages": ["setup", "apply"]
+            "group": "Guides",
+            "pages": [
+                "guides/apply",
+                "guides/setup",
+                "guides/apikey"
+            ]
         },
         {
             "group": "Features",
@@ -48,6 +52,21 @@
                 "features/dodge",
                 "features/statcheck",
                 "features/customranks"
+            ]
+        },
+        {
+            "group": "Configuration",
+            "pages": [
+                "configuration/general",
+                "configuration/queuestats",
+                "configuration/autododge",
+                "configuration/autogg"
+            ]
+        },
+        {
+            "group": "Commands",
+            "pages": [
+                "commands/sc"
             ]
         }
     ],
