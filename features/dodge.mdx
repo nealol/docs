@@ -1,0 +1,75 @@
+---
+title: 'Autododge'
+description: 'Autododge allows you to quit a game if a player&apos;s stats meets the criteria you configured.'
+---
+
+<Note>
+	For Autododge to work you need to have a valid [API Key](/features/apikey) or you need to [support Lilith](https://lilith.rip/pricing).
+</Note>
+
+<Info>
+	{' '}
+	Please note that if your opponent is nicked, Autododge will attempt to denick
+	the player but may fail.
+</Info>
+
+Supported gamemode are: Duels, Bed Wars, SkyWars, Wool Wars and Murder Mystery.
+
+## Common settings
+
+Lilith offers some basic and general configuration for autododge.
+
+-   Dodge nicked players,
+-   Dodge immediately,
+-   Requeue after dodging _(only with [Lilith Pro](https://lilith.rip/pricing))_,
+-   Do `/p warp` after dodging _(only with [Lilith Pro](https://lilith.rip/pricing) + Duels and SkyWars exclusive)_.
+
+## Autododge rules
+
+### Common rules
+
+-   `Level` is the Hypixel network level of the player.
+-   `Wins` is the amount of wins the player has.
+-   `Losses` is the amount of losses the player has.
+-   `WLR` is the win-loss ratio of the player.
+-   `Players` are the players (separated by a comma) you want to dodge/queue against.
+-   `Maps` are the Maps (separated by a comma) you want to dodge/queue.
+-   `Star` is the gamemode level of the player.
+-   `WS` is the amount of successive wins without losing the player currently has.
+-   `BWS` is the best amount of successive wins without losing the player has.
+-   `Games` is the amount of games the player played.
+
+### Gamemode specific rules
+
+<Tabs>
+	<Tab title={'Duels'}>
+		- `Melee` is the hit-swing ratio of the player. - `Ranged` is the
+		hit-shot ratio of the player.
+	</Tab>
+	<Tab title={'Bed Wars'}>
+		- `FKDR` is the final kill-death ratio of the player.
+	</Tab>
+	<Tab title={'Wool Wars'}>
+		- `Assists` is the amount of assists the player has.
+	</Tab>
+</Tabs>
+
+### In Game commands
+
+Lilith also allows you to customize the way Autododge works on the fly.
+
+<Tabs>
+	<Tab title={"nododge"}>
+		Usage: `/nododge [target] [duration = 24h]`
+
+    	Don't dodge a specific player for a specific amount of time. The duration accepts integers with a `h`, `m`, `s` suffix.
+    	When used without arguments, this function will output all of your no-dodged players.
+    </Tab>
+    <Tab title={"autododge"}>
+    	Usage: `/autododge [gamemode]`
+
+    	Toggles Autododge for a specific supported gamemode.
+    	When used without arguments, this function will disable autododge for your current gamemode.
+    </Tab>
+
+</Tabs>

@@ -1,0 +1,131 @@
+---
+title: 'Queuestats'
+description: 'This guide will help you get an API Key to use with Lilith.'
+---
+
+<Note>
+	For Queuestats to work you need to have a valid API Key or a [paid Lilith plan](https://lilith.rip/pricing).
+</Note>
+
+Queuestats are Lilith's core feature, they allow you to see your opponent's statistics before the game starts.
+
+<Info>
+	{' '}
+	Please note that if your opponent is nicked, Queuestats will attempt to denick
+	the player but may fail.
+</Info>
+
+Supported gamemode are: Duels, Bed Wars, SkyWars, Wool Wars and Murder Mystery,_(but there's more to come!)_.
+
+|                | [Chat Stats](/features/queuestats#chats-stats) | <Tooltip tip="Also includes: Show Tab Stats during game.">[Tab Stats](/features/queuestats#tab-stats)</Tooltip> | <Tooltip tip="To use with an external overlay.">Auto Who</Tooltip> | <Tooltip tip="Allows customization between overall mode stats, specific gamemode stats or both in Chat Stats.">Mode Stats</Tooltip> |
+| -------------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Duels          | ✅                                             | ❌                                                                                                              | ❌                                                                 | ✅                                                                                                                                  |
+| Bed Wars       | ✅                                             | ✅                                                                                                              | ✅                                                                 | ✅                                                                                                                                  |
+| SkyWars        | ❌                                             | ✅                                                                                                              | ❌                                                                 | ❌                                                                                                                                  |
+| Wool Wars      | ✅                                             | ✅                                                                                                              | ❌                                                                 | ❌                                                                                                                                  |
+| Murder Mystery | ✅                                             | ❌                                                                                                              | ✅                                                                 | ✅                                                                                                                                  |
+
+## Chats Stats
+
+Chat Stats refers to a player's statistics as an in-game chat message.
+
+#### Common stats
+
+-   `[YAN ✪]` is the player's rank, it can be the default one from Hypixel or even a custom rank (like here). 
+    Requires [Lilith Ultimate](https://lilith.rip/pricing).
+	<br />
+	You may turn custom ranks off with [Lilith Pro or higher](https://lilith.rip/pricing).
+-   `Lvl` is the Hypixel network level of the player.
+-   `W` is the amount of wins the player has.
+-   `L` is the amount of losses the player has.
+-   `W/L` is the win-loss ratio of the player.
+-   `K/D` is the kill-death ratio of the player.
+-   `[677✫]` is the gamemode level of the player.
+
+<Tabs>
+	<Tab title="Overall">
+
+    	![](/images/overall-qs.png)
+
+    	* `Status` is the status of the player. Green for online and red for offline.
+    	* `AP` is the achievement points of the player.
+    	* `Quests` is the number of quests the player has completed.
+    	* `Karma` is the karma of the player.
+    	* `First login` is the date of the player first login on Hypixel.
+
+    </Tab>
+    <Tab title="Duels">
+
+    	![](/images/duels-qs.png)
+
+    	* `WS` is the current winstreak of the player.
+    	* `BWS` is the best winstreak of the player.
+
+    </Tab>
+    <Tab title="Bed Wars">
+
+    	![](/images/bw-qs.png)
+
+    	* `FK/D` is the final kill-death ratio of the player.
+
+    </Tab>
+    <Tab title="SkyWars">
+
+    	![](/images/sw-qs.png)
+
+    	* `T` is the total playtime of the player in SkyWars.
+    	* `C` is the corruption chance of the player.
+			<br />
+			Corruption chance refers to the chance that a player adds to corrupt a game in SkyWars.
+
+    </Tab>
+    <Tab title="Wool Wars">
+
+    	![](/images/ww-qs.png)
+
+    	* `Class` is the Wool Wars class of the player.
+
+    </Tab>
+    <Tab title="Murder Mystery">
+
+    	![](/images/mm-qs.png)
+
+    	* `MK` is the amount of kills as murderer of the player.
+    	* `DW` is the amount of wins as detective of the player.
+    	* `S` refers to `Survivors`.
+    	* `I` refers to `Infected`.
+
+    </Tab>
+
+</Tabs>
+
+## Tab Stats
+
+Tab Stats refers to a condensed player's statistics in the `List Player` menu _(AKA Tab list)_.
+
+<Tabs>
+	<Tab title="SkyWars">
+
+    	![](/images/sw-tab.png)
+
+    	* `[7☼]` is the player's SkyWars level.
+    	* `0.65` is the player's SkyWars kill-death ratio.
+
+    </Tab>
+    <Tab title="Bed Wars">
+
+    	![](/images/bw-tab.png)
+
+    	* `[16✫]` is the player's Bed Wars level.
+    	* `0.68` is the player's final kill-death ratio.
+
+    </Tab>
+    <Tab title="Wool Wars">
+
+    	![](/images/ww-tab.png)
+
+    	* `[6]` is the player's Wool Wars level.
+    	* `112` is the player's Wool Wars wins.
+
+    </Tab>
+</Tabs>

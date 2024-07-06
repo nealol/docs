@@ -1,0 +1,140 @@
+---
+title: 'Stat Check'
+description: "Lilith provides a powerful statchecking system for the most of Hypixel's core gamemodes."
+---
+
+Lilith comes with statchecking sytem available with `/sc <gamemodes> [target1] [target2]`.
+
+-   Gamemodes are comma separated and can hold as many supported gamemodes as you can.
+-   Targets are space separated values, they are not required. If you do not provide them, you will be the target. <br/>
+    You can also use `@p` to check your party member's stats, or `@a` for the entire lobby you're in.
+
+You can get an explanation of what each stats means by looking at <a href="/features/queuestats#common-stats">Queuestats</a>.
+
+## Gamemodes
+
+-   To check for __overall__ stats, gamemode = `overall`, `all`, `stats`, `general`, `main`, `server`.
+
+<Tabs>
+    <Tab title="Duels">
+        -   To check for __overall__ Duels stats, gamemode = `duel`, `duels`.
+        <AccordionGroup>
+            <Accordion title="Bridge">
+                | Mode                    | Aliases                                               |
+                |------------------------ |--------------------------------------------------- |
+                | Bridge Overall | bridge |
+                | Bridge Solo | bridge1 |
+                | Bridge Doubles | bridge2 |
+                | Bridge Threes | bridge3 |
+                | Bridge Fours | bridge4 |
+                | Bridge 2v2v2v2 | bridge22, bridge2s |
+                | Bridge 3v3v3v3 | bridge33, bridge3s |
+                | Bridge CTF | capture1 |
+                | Bridge CFT | capture, capture3 |
+
+            </Accordion>
+            <Accordion title="OP">  
+                | Mode | Aliases |
+                |----- | ------- |
+                | OP Overall | op |
+                | OP Solo | op1, opd |
+                | OP Doubles | op2 |
+            </Accordion>
+            <Accordion title="UHC">
+                | Mode | Aliases |
+                |----- | ------- |
+                | UHC Overall | uhc |
+                | UHC Solo | uhc1, uhcd |
+                | UHC Doubles | uhc2 |
+                | UHC Fours | uhc4 |
+                | UHC Deathmatch | uhc8 |
+            </Accordion>
+            <Accordion title="MegaWalls">
+                | Mode | Aliases |
+                |----- | ------- |
+                | MegaWalls Solo | mw1 |
+                | MegaWalls Overall | mwd |
+                | MegaWalls Doubles | mw2 |
+            </Accordion>
+            <Accordion title="Other">
+                | Mode | Aliases |
+                |----- | ------- |
+                | BlitzSG | blitzsg, blitzd |
+                | Classic | classicd, classic |
+                | Combo | combod, combo |
+                | Bow | bowd, bow |
+                | BowSpleef | bowspleefd, bowspleef |
+                | Boxing | boxing, box |
+                | Parkour | parkour |
+                | Sumo | sumo |
+                | SkyWars Duels | swd |
+            </Accordion>
+        </AccordionGroup>
+    </Tab>
+
+    <Tab title="Bed Wars">
+
+        -   To check for __overall__ Bed Wars stats, gamemode = `bw`, `bedwars`.
+
+        <AccordionGroup>
+            <Accordion
+                title="Solo">
+                gamemode = `bw1`.
+            </Accordion>
+            <Accordion
+                title="Doubles">
+                gamemode = `bw2`.
+            </Accordion>
+            <Accordion
+                title="Threes">
+                gamemode = `bw3`.
+            </Accordion>
+            <Accordion
+                title="Fours">
+                gamemode = `bw4`.
+            </Accordion>
+            <Accordion
+                title="4v4">
+                gamemode = `bw44`, `bw4s`.
+            </Accordion>
+            <Accordion
+                title="Rush">
+                gamemode = `rushbw1`, `rushbw`, `rushbw2`, `rushbw4`.
+            </Accordion>
+            <Accordion
+                title="Ultimate">
+                gamemode = `ultimatebw1`, `ultimatebw`, `ultimatebw2`, `ultimatebw4`.
+            </Accordion>
+            <Accordion
+                title="Voidless">
+                gamemode = `voidlessbw`, `voidlessbw2`, `voidlessbw4`.
+            </Accordion>
+            <Accordion
+                title="Armed">
+                gamemode = `armedbw2`, `armedbw`, `armedbw4`.
+            </Accordion>
+            <Accordion
+                title="Castle">
+                gamemode = `castlebw`.
+            </Accordion>
+        </AccordionGroup>
+    </Tab>
+    <Tab title="SkyWars">
+
+        -   To check for __overall__ SkyWars stats, gamemode = `sw`, `skywars`.
+        -   To check for __solo__ SkyWars stats, gamemode = `sw1`, `skywars1`.
+        -   To check for __doubles__ SkyWars stats, gamemode = `sw2`, `skywars2`.
+    </Tab>
+    <Tab title="Wool Wars">
+        -   To check for __Wool Wars__ stats, gamemode = `ww`, `woolwars`.
+
+    </Tab>
+    <Tab title="Murder Mystery">
+
+        -   To check for __overall__ Murder Mystery stats, gamemode = `mm`, `murdermystery`.
+        -   To check for __classic__ Murder Mystery stats, gamemode = `mmc`, `mmclassic`.
+        -   To check for __infection__ Murder Mystery stats, gamemode = `mmi`, `mminfection`.
+        -   To check for __assassins__ Murder Mystery stats, gamemode = `mma`, `mmassassins`.
+        -   To check for __double up__ Murder Mystery stats, gamemode = `mmd`, `mmdoubleup`.
+    </Tab>
+</Tabs>
