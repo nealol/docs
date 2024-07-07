@@ -55,7 +55,13 @@
             "pages": [
                 "guides/setup/apply",
                 "guides/setup/setup",
-                "guides/setup/apikey"
+                "guides/setup/apikey",
+                {
+                    "group": "Troubleshooting",
+                    "pages": [
+                        "guides/troubleshooting/index"
+                    ]
+                }
             ]
         },
         {
