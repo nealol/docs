@@ -1,0 +1,34 @@
+---
+title: '/rq'
+description: 'Requeue into the same game'
+---
+
+## Description
+
+This command will run the `/play` command associated with the gamemode you are currently playing. If in a lobby, the last played gamemode will be used.
+As of Lilith 1.1, `/rq` will not work by default when a game has already started. To requeue while in a game, use `/rq force`.
+
+While most gamemodes will work, and play commands can be updated remotely, newer gamemodes may not work as expected. Report any issues in a ticket.
+Requeueing being blocked after a game start is only guaranteed to work in games supported by queuestats.
+
+
+## Usage
+
+`/rq [force]`
+
+## Aliases
+
+`/rq`,
+`/requeue`
+
+## Changelog
+
+<Steps>
+    <Step title={'Before Full Release'} icon={'code-branch'}>
+        Added `/rq`.
+    </Step>
+    <Step title="Version 1.1.0" icon="code-merge">
+        Requeueing after a game start is now blocked by default. Use `/rq force` to bypass this.
+        Added `/requeue` alias.
+    </Step>
+</Steps>
