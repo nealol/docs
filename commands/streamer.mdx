@@ -1,26 +1,32 @@
 ---
-title: '/lstreamer'
-description: ''
+title: '/streamer'
+description: 'Hide aspects of your game from stream.'
 ---
 
 ## Description
 
+This command allows you to toggle streamer related features within Lilith. Doing `/streamer` or `/streamer toggle` will toggle streamer mode.
+Streamer mode is designed to hide your Lilith usage from your screen. For more, see the [Streamer Mode](/features/streamermode) feature page.
+
+Alternatively, if you'd like to hide aspects of your gameplay, you can use `/streamer date` or `/streamer server` to hide the date or server you are playing on in the scoreboard.
+You can also replace the server name with a custom IP address using `/streamer ip [text]`. (This must be toggled on by running `/streamer ip`.)
 
 ## Usage
 
-`/`
+`/streamer [toggle]` | `/streamer <server|date>` | `/streamer ip [text]`
 
 ## Aliases
 
-`/`
+`/streamer`,
+`/lstreamer`
 
 ## Changelog
 
 <Steps>
     <Step title={'Before Full Release'} icon={'code-branch'}>
-        Add /
+        Added `/streamer`.
     </Step>
     <Step title="Version 1.1.0" icon="code-merge">
-        Changed
+        Added server, date, and ip hiding.
     </Step>
 </Steps>
