@@ -1,0 +1,16 @@
+{
+  "name": "@lilithmod/mintlify-docs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "_phase:build": "",
+    "dev": "mintlify dev"
+  },
+  "dependencies": {
+    "mintlify": "^4.0.184"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10"
+  },
+  "private": true
+}
