@@ -1,6 +1,7 @@
 {
   "name": "@lilithmod/mintlify-docs",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "scripts": {
     "_phase:build": "",
@@ -11,6 +12,5 @@
   },
   "devDependencies": {
     "@types/node": "^20.14.10"
-  },
-  "private": true
+  }
 }
