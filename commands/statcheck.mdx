@@ -1,0 +1,38 @@
+---
+title: /sc
+description: Requeue into the same type of game.
+---
+
+## Description
+
+This command will display one or more players' stats in chat.
+
+Most major gamemodes or supported such as Overall stats, Duels, BedWars, SkyWars, Wool Wars, Murder Mystery and some Arcade modes.
+You can provide multiple gamemodes using a `,` as the separator.
+
+Statcheck also comes with selectors such as @p to statcheck your party, @a to statcheck your whole entire lobby and @me to statcheck yourself. Do note that not providing a target, will make you the target.
+You can provide multiple targets using a space as the separator.
+
+## Usage
+
+`/sc [gamemode1,gamemode2,...] [player1] [player2] ...`
+
+## Aliases
+
+`/sc`, 
+`/statcheck`
+
+## Changelog
+
+<Steps>
+    <Step title="Before Full Release" icon="code-branch">
+        Added `/sc`.
+    </Step>
+    <Step title="Version 1.0 Alpha 1" icon="code-merge">
+        Statcheck yourself with /sc when no targets are specified.
+        Statcheck multiple people at the same time, as well as @a, @p, and @me that statcheck the whole lobby, your party, and yourself.
+    </Step>
+    <Step title="Version 1.1" icon="code-merge">
+        You can now use `,` to statcheck multiple gamemodes at once. Providing no arguments at all will display your overall stats.
+    </Step>
+</Steps>

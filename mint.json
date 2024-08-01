@@ -1,156 +1,160 @@
 {
-    "$schema": "https://mintlify.com/schema.json",
-    "name": "Lilith Documentation",
-    "logo": {
-        "dark": "/images/lilith-text.png",
-        "light": "/images/lilith-text.png",
-        "href": "https://lilith.rip"
-    },
-    "favicon": "/images/favicon.png",
-    "colors": {
-        "primary": "#ef2d5b",
-        "light": "#ef2d5b",
-        "dark": "#ef2d5b",
-        "anchors": {
-            "from": "#ef2d5b",
-            "to": "#ef2d5b"
-        }
-    },
-    "modeToggle": {
-        "default": "dark",
-        "isHidden": true
-    },
-    "topbar": {
-        "style": "default"
-    },
-    "topbarLinks": [
-        {
-            "name": "Docs",
-            "url": "/introduction"
-        },
-        {
-            "name": "Pricing",
-            "url": "https://lilith.rip/pricing"
-        },
-        {
-            "name": "Config Panel",
-            "url": "https://me.lilith.rip"
-        }
-    ],
-    "topbarCtaButton": {
-        "name": "Download",
-        "url": "https://lilith.rip/download"
-    },
-    "anchors": [{
-        "name": "Discord",
-        "icon": "discord",
-        "url": "https://discord.gg/lilith"
-    }],
-    "navigation": [{
-            "pages": ["introduction"],
-            "group": "Welcome"
-        },
-        {
-            "group": "Getting Started",
-            "pages": [
-                "guides/setup/apply",
-                "guides/setup/setup",
-                "guides/setup/apikey",
-                {
-                    "group": "Troubleshooting",
-                    "pages": [
-                        "guides/troubleshooting/index"
-                    ]
-                }
-            ]
-        },
-        {
-            "group": "Game Types",
-            "pages": [
-                "gamemodes/duels",
-                "gamemodes/bedwars",
-                "gamemodes/skywars",
-                "gamemodes/murdermystery",
-                "gamemodes/woolwars"
-            ]
-        },
-        {
-            "group": "Features",
-            "pages": [
-                "features/queuestats",
-                "features/dodge",
-                "features/statcheck",
-                "features/autogg",
-                "features/bypasses",
-                "features/denicking",
-                "features/skinglitch",
-                "features/misc",
-                "features/statmentions",
-                "features/tags",
-                "features/emoji",
-                "features/emoticons",
-                "features/streamermode",
-                "features/customranks"
-            ]
-        },
-        {
-            "group": "Guides",
-            "pages": [
-                "guides/commandaliases"
-            ]
-        },
-        {
-            "group": "Details",
-            "pages": [
-                {
-                    "group": "Configuration",
-                    "pages": [
-                        "configuration/general",
-                        "configuration/queuestats",
-                        "configuration/autododge",
-                        "configuration/autogg"
-                    ]
-                },
-                {
-                    "group": "Commands",
-                    "pages": [
-                        {
-                            "group": "Lilith",
-                            "pages": [
-                                "commands/lilith-api",
-                                "commands/lilith-config",
-                                "commands/lresetauth"
-                            ]
-                        },
-                        "commands/sc",
-                        "commands/nh",
-                        "commands/status",
-                        "commands/rq",
-                        "commands/ltag",
-                        "commands/nrq",
-                        "commands/nododge",
-                        "commands/fakechat",
-                        "commands/lrank",
-                        "commands/calc",
-                        "commands/coinflip",
-                        "commands/streamer",
-                        "commands/limbo",
-                        "commands/autododge",
-                        "commands/play",
-                        "commands/lnick",
-                        "commands/scoreboard",
-                        "commands/sound",
-                        "commands/ignore",
-                        "commands/report",
-                        "commands/wdr"
-                    ]
-                }
-            ]
-        }
-
-    ],
-    "footerSocials": {
-        "discord": "https://discord.gg/lilith",
-        "github": "https://github.com/lilithmod"
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Lilith Documentation",
+  "logo": {
+    "dark": "/images/lilith-text.png",
+    "light": "/images/lilith-text.png",
+    "href": "https://lilith.rip"
+  },
+  "favicon": "/images/favicon.png",
+  "colors": {
+    "primary": "#ef2d5b",
+    "light": "#ef2d5b",
+    "dark": "#ef2d5b",
+    "anchors": {
+      "from": "#ef2d5b",
+      "to": "#ef2d5b"
     }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
+  "topbar": {
+    "style": "default"
+  },
+  "topbarLinks": [
+    {
+      "name": "Docs",
+      "url": "/introduction"
+    },
+    {
+      "name": "Pricing",
+      "url": "https://lilith.rip/pricing"
+    },
+    {
+      "name": "Config Panel",
+      "url": "https://me.lilith.rip"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Download",
+    "url": "https://lilith.rip/download"
+  },
+  "anchors": [
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.gg/lilith"
+    }
+  ],
+  "navigation": [
+    {
+      "pages": [
+        "introduction"
+      ],
+      "group": "Welcome"
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "guides/setup/apply",
+        "guides/setup/setup",
+        "guides/setup/apikey",
+        {
+          "group": "Troubleshooting",
+          "pages": [
+            "guides/troubleshooting/index"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Game Types",
+      "pages": [
+        "gamemodes/duels",
+        "gamemodes/bedwars",
+        "gamemodes/skywars",
+        "gamemodes/murdermystery",
+        "gamemodes/woolwars"
+      ]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        "features/queuestats",
+        "features/dodge",
+        "features/statcheck",
+        "features/autogg",
+        "features/bypasses",
+        "features/denicking",
+        "features/skinglitch",
+        "features/misc",
+        "features/statmentions",
+        "features/tags",
+        "features/emoji",
+        "features/emoticons",
+        "features/streamermode",
+        "features/customranks"
+      ]
+    },
+    {
+      "group": "Guides",
+      "pages": [
+        "guides/commandaliases"
+      ]
+    },
+    {
+      "group": "Details",
+      "pages": [
+        {
+          "group": "Configuration",
+          "pages": [
+            "configuration/general",
+            "configuration/queuestats",
+            "configuration/autododge",
+            "configuration/autogg"
+          ]
+        },
+        {
+          "group": "Commands",
+          "pages": [
+            {
+              "group": "Lilith",
+              "pages": [
+                "commands/lilith-api",
+                "commands/lilith-config",
+                "commands/resetauth"
+              ]
+            },
+            "commands/statcheck",
+            "commands/nh",
+            "commands/status",
+            "commands/rq",
+            "commands/ltag",
+            "commands/nrq",
+            "commands/nododge",
+            "commands/fakechat",
+            "commands/lrank",
+            "commands/calc",
+            "commands/coinflip",
+            "commands/streamer",
+            "commands/limbo",
+            "commands/autododge",
+            "commands/play",
+            "commands/lnick",
+            "commands/scoreboard",
+            "commands/sound",
+            "commands/ignore",
+            "commands/report",
+            "commands/wdr"
+          ]
+        }
+      ]
+    }
+  ],
+  "footerSocials": {
+    "discord": "https://discord.gg/lilith",
+    "github": "https://github.com/lilithmod"
+  }
 }
